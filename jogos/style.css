@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-image: url(../images/fundo/fundo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+}
+.cabecalho img{
+    margin: auto;
+}
+.cabecalho nav{
+    margin: auto;
+}
+.cabecalho ul{
+    list-style: none;
+}
+.cabecalho a{
+    color: rgba(0, 255, 0, 0.767);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.cabecalho a:hover{
+    color: rgba(1, 190, 1, 0.616);
+    text-decoration: underline;
+}
+.cabecalho li{
+    display: inline-block;
+    margin: 10px;
+}
+.tituloprincipal{
+    text-align: left;
+    padding: 50px;
+}
+.seguraconteudo{
+    display: flex;
+}
+.conteudo h3,h2{
+    text-align: center;
+    padding: 50px;
+}
+.conteudo h2{
+    text-align: left;
+}
+.informacoes{
+    text-align: center;
+    line-height: 40px;
+    margin: 50px;
+}
+.informacoes a{
+    color: red;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.informacoes a:hover{
+    color: rgba(177, 15, 15, 0.753);
+    text-decoration: underline;
+}
+.jogosflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.jogos{
+    margin: 0px 10px;
+}
+.menulateralesquerdo{
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+.campodebusca{
+  text-align: center;   
+}
+.campodebusca input{
+    height: 50px;
+    width: 200px;
+}
+.campodebusca button{
+    padding: 15px;
+}
+.anuncios , .redessociais{
+    margin: 30px 0px;
+}
+.redessociais{
+    text-align: center;
+}
+.redessociais p{
+    margin: 20px 0px;
+}
+.areadownload{
+    text-align: center;
+}
+.areadownload h3{
+    margin: 15px 0px;
+}
+.areadownload a{
+    display: block;
+    margin: 30px auto;
+    background-color: black;
+    width: 200px;
+    padding: 20px 0px;
+}
+.linksocultoss{
+    display: none;
+}
+.aviso{
+    display: none;
+    margin: auto;
+    background-color: black;
+    border-radius: 10px;
+    padding: 50px 0px;
+    width: 400px;
+}
+.proximapagina{
+  text-align: center;
+}
+.proximapagina button{
+    padding: 10px;
+    margin: 100px 5px;
+}
+.segurainformacoes{
+    display: flex;
+    align-items: center;
+}
+.infor{
+    margin: 0px 50px 200px 50px;
+}
